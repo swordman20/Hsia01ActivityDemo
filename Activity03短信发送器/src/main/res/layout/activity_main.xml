@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.xwf.activity03.MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/et_username"
+        android:hint="请选择联系人"
+        android:textSize="30sp"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_openconect"
+        android:layout_toRightOf="@id/et_username"
+        android:text="查看联系人"
+        android:layout_weight="0.6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+    <EditText
+        android:id="@+id/et_disc"
+        android:gravity="top"
+        android:text="今天天气很好啊~"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"/>
+    <Button
+        android:id="@+id/btn_temp"
+        android:text="插入短信模板"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/btn_send"
+        android:text="发送"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+</LinearLayout>

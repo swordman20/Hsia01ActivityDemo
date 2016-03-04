@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.xwf.activity04activity.MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end"
+        android:textSize="23sp"
+        android:textColor="#ff0000"
+        android:text="我是第二个界面" />
+    <Button
+        android:onClick="start1"
+        android:id="@+id/btn1"
+        android:layout_below="@id/tv"
+        android:text="开启第一个界面"
+        android:textColor="#ff00"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:onClick="start2"
+        android:textColor="#ff00"
+        android:layout_below="@id/btn1"
+        android:text="开启第二个界面"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
